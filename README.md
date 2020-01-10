@@ -13,6 +13,10 @@ lerna publish
 #Check which packages have changed since the last release.
 lerna changed
 
+#Diff all packages or a single package since the last release
+lerna diff [package?]
 
+#Run an npm script in each package that contains that script.
+lerna run [script]
 
 ```
