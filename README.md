@@ -10,4 +10,9 @@ lerna bootstrap
 # Create a new release of the packages that have been updated. Prompts for a new version and updates all the packages on git and npm.
 lerna publish
 
+#Check which packages have changed since the last release.
+lerna changed
+
+
+
 ```
